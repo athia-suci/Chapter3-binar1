@@ -1,0 +1,280 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  html {
+    overflow-x: hidden;
+  }
+  
+  /* navbar */
+    nav {
+        background: #f1f3ff;
+    }
+
+    .navbar-toggler {
+        border: 0;
+    }
+
+    .btn {
+        background: #5cb85f;
+        border: 0;
+    }
+
+    /* hero */
+    .hero {
+        background: #f1f3ff;
+    }
+
+    .hero-title {
+        line-height: 150%;
+    }
+
+    .hero-text {
+        font-style: normal;
+        font-weight: 300;
+        line-height: 3  0px;
+    }
+  
+  /* our service */
+  .our-service {
+    padding-left: 50px;
+    padding-top: 100px;
+  }
+  
+  .text-service {
+    padding-left: 45px;
+    padding-top: 40px;
+  }
+  
+  .text-service h3 {
+    font-size: 24px;
+  }
+  
+  .text-service p {
+    font-size: 15px;
+  }
+  
+  /* Why-us */
+  .why-us {
+    padding-top: 100px;
+  }
+  
+  .why-tittle h3 {
+    font-size: 24px;
+  }
+  
+  .why-tittle p {
+    font-size: 14px;
+  }
+  
+  .why-text p {
+    font-size: 14px;
+  }
+  
+  /* testimonial */
+  .item {
+    width: 100%;
+    background-color: rgba(241, 243, 255, 1);
+    border-radius: 8px;
+  }
+  .card-left {
+    width: 50%;
+    height: 50%;
+    margin: 70px 30px;
+  }
+  
+  .card-right {
+    text-align: justify;
+    font-size: 12px;
+    padding: 85px 50px 0 0;
+  }
+  
+  .card-right i {
+    color: gold;
+    padding-bottom: 10px;
+  }
+  
+  .Testimonial-tittle {
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .owl-carousel .testi-body {
+    display: flex;
+  }
+  
+  /* sewa mobil */
+  .card-1 {
+    margin-top: 50px;
+    padding: 64px 0 64px 0;
+    border-radius: 10px;
+    background-color: rgba(13, 40, 166, 1);
+  }
+  
+  .card-title-1 h3 {
+    font-size: 36px;
+  }
+  
+  /* FAQ */
+  .faq {
+    padding-top: 100px;
+  }
+  
+  .faq-content .card {
+    margin-bottom: 10px;
+  }
+  
+  .faq-tittle h1 {
+    font-size: 24px;
+  }
+  
+  .faq-tittle p {
+    font-size: 14px;
+  }
+  
+  /* footer */
+  .footer {
+    margin-top: 100px;
+  }
+  
+  .box {
+    width: 100px;
+    height: 34px;
+    background-color: rgba(13, 40, 166, 1);
+  }
+  
+  .footer .footer-link a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .footer .footer-link a:hover {
+    color: blue;
+  }
+  
+  @media (min-width: 320px) and (max-width: 576px) {
+    html {
+      overflow-x: hidden;
+    }
+  
+    /* navbar */
+    .offcanvas-header h5::before {
+      content: "B";
+      color: gold;
+      font-weight: bold;
+      font-family: "Times New Roman", Times, serif;
+    }
+  
+    .navigation a {
+      margin-left: 0;
+    }
+  
+    .register {
+      width: 50%;
+    }
+  
+    .tittle {
+      padding-top: 100px;
+      font-weight: bold;
+    }
+    .picture img {
+      width: 100%;
+      padding-top: 50px;
+    }
+  
+    .our-service {
+      padding-top: 60px;
+    }
+  
+    .img-service {
+      width: 95%;
+    }
+  
+    .our-service,
+    .col-sm-6 {
+      padding-left: 10px;
+    }
+  
+    .text-service p {
+      font-size: 13.6px;
+    }
+  
+    /* why us */
+    .why-us {
+      padding-top: 50px;
+    }
+    .why-tittle {
+      text-align: center;
+    }
+  
+    .why-text .col-md {
+      padding-bottom: 15px;
+    }
+  
+    .card-body {
+      padding-bottom: 0;
+    }
+  
+    /* testimonial */
+    .item {
+      width: 95%;
+      margin-left: 3%;
+    }
+  
+    .card-left {
+      width: 30%;
+      margin: 30px 35%;
+      padding-top: 30px;
+    }
+  
+    .card-right {
+      font-size: 12px;
+      padding: 0 30px 30px 30px;
+    }
+  
+    .card-right i {
+      color: gold;
+      text-align: center;
+    }
+  
+    .faq-icon {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  
+    .Testimonial-tittle {
+      text-align: center;
+      padding-top: 50px;
+    }
+  
+    .owl-carousel .testi-body {
+      display: block;
+    }
+  
+    /* banner */
+    .banner-content {
+      margin-top: 50px;
+      padding: 64px 0 64px 0;
+    }
+  
+    .banner-content h3 {
+      font-size: 24px;
+      padding: 0 50px;
+    }
+  
+    .banner-content p {
+      font-size: 14px;
+      padding: 16px 65px 20px 65px;
+    }
+  
+    /* FAQ */
+    .faq-tittle {
+      text-align: center;
+    }
+  
+    /* footer */
+    .footer {
+      margin-top: 50px;
+    }
+  }
+  
